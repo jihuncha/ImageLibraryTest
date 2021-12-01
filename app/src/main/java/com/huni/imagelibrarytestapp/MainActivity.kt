@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initView() {
+        Log.d(TAG, "initView")
         //어댑터 생성
         val adapter = FragmentPagerAdapter(this)
 

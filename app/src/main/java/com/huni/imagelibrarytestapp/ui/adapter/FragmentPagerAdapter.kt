@@ -9,7 +9,7 @@ import com.huni.imagelibrarytestapp.ui.fragment.CoilFragment
 import com.huni.imagelibrarytestapp.ui.fragment.GlideFragment
 import com.huni.imagelibrarytestapp.ui.fragment.PicassoFragment
 
-//FragmentAdapter
+//FragmentAdapter - MainActivity ViewPager2 에 사용됨
 class FragmentPagerAdapter(activity: FragmentActivity) : FragmentStateAdapter(activity) {
     private val fragments: List<Fragment> = listOf(GlideFragment(), PicassoFragment(), CoilFragment())
 
